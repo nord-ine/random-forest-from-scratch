@@ -19,7 +19,7 @@ Xtrain,Ytrain = X[train_dx] , Y[train_dx]
 Xtest,Ytest = X[test_idx] , Y[test_idx]
 
 
-model = dtc(5,10)
+model = dtc(6,10)
 model.build_tree(Xtrain,Ytrain)
 print('-------------------------------------------------------------------------------------------------------')
 
